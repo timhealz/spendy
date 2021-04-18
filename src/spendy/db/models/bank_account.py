@@ -1,19 +1,12 @@
-from datetime import datetime
-
-from sqlalchemy import(
-    MetaData,
-    Table,
+from sqlalchemy import (
     Column,
-    Numeric,
-    BigInteger,
     String,
-    Date,
     DateTime
 )
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.sql import func
 
-from spendy.db.utils import get_db_engine, get_process_ts
+from spendy.db.utils import get_db_engine
 
 
 Base = declarative_base()

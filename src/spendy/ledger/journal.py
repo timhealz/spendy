@@ -44,7 +44,7 @@ if __name__ == "__main__":
 
     with open(os.path.join(JOURNAL_DIR, args.year, f"{args.month}.ldg"), "w") as f:
         f.write(
-            f"# GENERATED FILE - EDITS WILL BE OVERWRITTEN!\n")
+            "# GENERATED FILE - EDITS WILL BE OVERWRITTEN!\n")
         for transaction, bank_account in transactions:
             f.write(JOURNAL_ENTRY.format(
                 date=transaction.ds,

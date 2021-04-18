@@ -5,13 +5,11 @@ import re
 
 from argparse import ArgumentParser
 
-from sqlalchemy import delete
 from sqlalchemy.sql.expression import extract
 from sqlalchemy.orm import sessionmaker
 
 from spendy.db.utils import get_db_engine
 from spendy.db.models.transaction import Transaction
-from spendy.db.models.bank_account import BankAccount
 from spendy.csv.handlers import (
     AllyCSVHandler,
     ChaseCSVHandler,

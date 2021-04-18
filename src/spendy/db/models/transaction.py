@@ -1,8 +1,4 @@
-from datetime import datetime
-
-from sqlalchemy import(
-    MetaData,
-    Table,
+from sqlalchemy import (
     Column,
     ForeignKey,
     Numeric,
@@ -15,7 +11,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.sql import func
 
 from spendy.db.models.bank_account import BankAccount
-from spendy.db.utils import get_db_engine, get_process_ts
+from spendy.db.utils import get_db_engine
 
 
 Base = declarative_base()

@@ -1,5 +1,3 @@
-import csv
-
 from datetime import datetime
 from typing import Dict
 from re import sub

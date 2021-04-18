@@ -1,5 +1,5 @@
 # spendy
-![build](https://github.com/timhealz/spendy/actions/workflows/main.yml/badge.svg)
+[![build](https://github.com/timhealz/spendy/actions/workflows/main.yml/badge.svg)](https://github.com/timhealz/spendy/actions/workflows/main.yml)
 [![codecov](https://codecov.io/gh/timhealz/spendy/branch/main/graph/badge.svg)](https://codecov.io/gh/timhealz/spendy)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
